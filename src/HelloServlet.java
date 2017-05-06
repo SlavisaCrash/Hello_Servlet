@@ -8,6 +8,7 @@ import java.io.IOException;
  * Created by Slavisa on 04/27/17.
  */
 
+
 public class HelloServlet extends HttpServlet {
 
     public void init() throws ServletException {
@@ -22,6 +23,7 @@ public class HelloServlet extends HttpServlet {
 
     }
 
+    //Display message in console
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         System.out.println("We are in doGet method");
